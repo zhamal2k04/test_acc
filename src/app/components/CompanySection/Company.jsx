@@ -34,7 +34,7 @@ export default function Company() {
                         </div>
                     </div>
                     <div className={cm.Company__video}>
-                        <iframe width="526" height="350" src="https://www.youtube.com/embed/rglFR-E0aco?si=h4EDNwlkIiY4-hXI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        {/* <iframe width="526" height="350" src="https://www.youtube.com/embed/rglFR-E0aco?si=h4EDNwlkIiY4-hXI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> */}
                         <div onClick={()=> router.push('./register')} className={cm.company__info__box}>
                             <div className={cm.box__text1}>Запрос ставки и условий погрузочно-разгрузочных работ</div>
                             <div className={cm.box__text2}>Рассчитайте моментально стоимость полных портовых услуг в порту VISMA</div>
